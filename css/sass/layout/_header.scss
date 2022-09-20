@@ -1,0 +1,29 @@
+@use "../helpers/variables" as *;
+.nav-item {
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  .nav-link:hover {
+    color: black;
+  }
+}
+.logo {
+  width: 5rem;
+  height: 3rem;
+}
+.navbar-brand {
+  color: white;
+  &:hover {
+    color: black;
+  }
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+}
+.navbar-expand-lg {
+  background-color: $main-color-head;
+  color: #ffffff;
+}

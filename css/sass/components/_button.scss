@@ -1,0 +1,97 @@
+@use  "../helpers/variables" as *;
+.btn-primary {
+  color: #ffffff;
+  background-color: $btn-color;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  color: #ffffff;
+  background: #13c4a1;
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+  -webkit-box-shadow: unset;
+  box-shadow: unset;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active:focus,
+.btn-primary:not(:disabled):not(.disabled):active:focus,
+.btn-primary .show > .btn-primary.dropdown-toggle:focus {
+  -webkit-box-shadow: unset;
+  box-shadow: unset;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary .show > .btn-primary.dropdown-toggle {
+  color: #ffffff;
+  background: #13c4a1;
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+
+.btn-primary.disabled,
+.btn-primary:disabled {
+  color: #ffffff;
+  background-color: $btn-color;
+  border-color: $btn-color;
+  opacity: 1;
+}
+
+.btn-primary.disabled:hover,
+.btn-primary.disabled:focus,
+.btn-primary:disabled:hover,
+.btn-primary:disabled:focus {
+  background: #13c4a1;
+}
+.btnsub {
+  background-color: $btn-color;
+}
+
+
+.btn::after,
+.btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  background: #13c4a1;
+  z-index: -1;
+  border-radius: 5px;
+}
+
+.btn::after {
+  right: 0;
+}
+
+.btn::before {
+  left: 0;
+}
+
+.btn:hover::after,
+.btn:hover::before {
+  width: 52%;
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 16px;
+  border: none;
+  padding: 13px 31px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  position: relative;
+  -webkit-box-shadow: 0 13px 27px 0 rgba(163, 48, 53, 0.25);
+  box-shadow: 0 13px 27px 0 rgba(163, 48, 53, 0.25);
+  z-index: 1;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}

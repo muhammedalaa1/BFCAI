@@ -1,0 +1,37 @@
+@use "../helpers/variables" as *;
+footer {
+  background-image: url("../imgs/footer-shape.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.col-md-2 {
+  a {
+    color: black;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    &:hover {
+      color: #13c4a1;
+    }
+  }
+}
+.text-end {
+  a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    cursor: pointer;
+    &:hover {
+      color: black;
+    }
+  }
+}
