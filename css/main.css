@@ -120,6 +120,22 @@
     margin-left: 0px;
   }
 }
+@-webkit-keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 .btn-primary {
   color: #ffffff;
   background-color: #ff8a73;
@@ -128,22 +144,19 @@
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-  color: #ffffff;
+  color: black;
   background: #13c4a1;
-  -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
 }
 
 .btn-primary.focus,
 .btn-primary:focus {
-  -webkit-box-shadow: unset;
   box-shadow: unset;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active:focus,
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .btn-primary .show > .btn-primary.dropdown-toggle:focus {
-  -webkit-box-shadow: unset;
   box-shadow: unset;
 }
 
@@ -152,8 +165,10 @@
 .btn-primary .show > .btn-primary.dropdown-toggle {
   color: #ffffff;
   background: #13c4a1;
-  -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  -o-transform: translateY(-5px);
 }
 
 .btn-primary.disabled,
@@ -182,7 +197,6 @@
   top: 0;
   height: 100%;
   width: 0;
-  -webkit-transition: 0.4s;
   transition: 0.4s;
   background: #13c4a1;
   z-index: -1;
@@ -210,10 +224,8 @@
   border-radius: 5px;
   text-transform: uppercase;
   position: relative;
-  -webkit-box-shadow: 0 13px 27px 0 rgba(163, 48, 53, 0.25);
   box-shadow: 0 13px 27px 0 rgba(163, 48, 53, 0.25);
   z-index: 1;
-  -webkit-transition: 0.9s;
   transition: 0.9s;
 }
 
@@ -232,7 +244,7 @@
   left: 0;
   bottom: -40%;
   width: 100%;
-  height: 120vh;
+  height: 140vh;
   overflow: hidden;
   z-index: -1;
 }
@@ -252,8 +264,8 @@
   top: 100%;
   -webkit-animation-name: smallBubble;
   animation-name: smallBubble;
-  -webkit-animation-duration: 3s;
-  animation-duration: 3s;
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   -webkit-animation-delay: 1s;
@@ -475,6 +487,29 @@
   animation-timing-function: ease-in;
 }
 
+.vidDs {
+  height: 160vh;
+  bottom: -30%;
+}
+
+.VBA {
+  height: 160vh;
+  bottom: 21%;
+}
+
+.VLA {
+  bottom: 10%;
+  height: 120vh;
+}
+
+.VLD {
+  bottom: -10%;
+}
+
+.VSA {
+  bottom: 0%;
+}
+
 .nav-item a {
   color: white;
   text-decoration: none;
@@ -512,6 +547,17 @@ footer {
   background-repeat: no-repeat;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+footer {
+  margin-top: auto;
+}
+
 .col-md-2 a {
   color: black;
   text-decoration: none;
@@ -538,4 +584,34 @@ footer {
 .text-end a:hover {
   color: black;
 }
-/*# sourceMappingURL=main.css.map */
+
+.TypeWrite {
+  position: relative;
+  color: #13c4a1;
+}
+.TypeWrite::after {
+  content: "";
+  position: absolute;
+  border-right: 3px solid #ff8a73;
+  height: 60%;
+  top: 25%;
+  animation: blink 0.8s ease-in-out infinite;
+  -webkit-animation: blink 0.8s ease-in-out infinite;
+}
+
+.coloring {
+  color: #13c4a1;
+}
+
+.accordion-name {
+  color: black;
+}
+
+.button a {
+  color: white;
+  text-decoration: none;
+}
+.button button {
+  text-transform: none;
+  padding: 10px 10px;
+}/*# sourceMappingURL=main.css.map */

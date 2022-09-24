@@ -6,6 +6,17 @@ footer {
   background-repeat: no-repeat;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+footer {
+  margin-top: auto;
+}
+
 .col-md-2 {
   a {
     color: black;
