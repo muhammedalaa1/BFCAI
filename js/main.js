@@ -21,3 +21,20 @@ const texts = ["Welcome in our site", "BFCAI", "Let's Study !"];
     
 })();
 
+let arrow = document.getElementById("goupp")
+let circle =document.getElementById("goup")
+window.onscroll = function (){
+  'use strict';
+  if(window.pageYOffset >= 280){
+    arrow.style.display="block";
+    circle.style.display="block";
+  }else{
+    arrow.style.display = "none";
+    circle.style.display="none";
+  }
+}
+circle.onclick = function () {
+'use strict';
+window.scrollTo(0,0);
+}
+

@@ -484,6 +484,46 @@
   animation-timing-function: ease-in;
 }
 
+.linBub {
+  height: 80vh;
+  bottom: -150%;
+}
+
+.busBub {
+  height: 80vh;
+  bottom: -120%;
+}
+
+.dataBub {
+  height: 80vh;
+  bottom: -240%;
+}
+
+.introBub {
+  height: 80vh;
+  bottom: -250%;
+}
+
+.linearBub {
+  height: 80vh;
+  bottom: -180%;
+}
+
+.loBub {
+  height: 80vh;
+  bottom: -280%;
+}
+
+.staticBub {
+  height: 80vh;
+  bottom: -230%;
+}
+
+.BusinessQuiz {
+  height: 200vh;
+  bottom: 20%;
+}
+
 .nav-item a {
   color: white;
   text-decoration: none;
@@ -512,6 +552,22 @@
 .navbar {
   background-color: #13c4a1;
   color: #13c4a1;
+}
+
+.sectionss {
+  color: #ff8a73;
+}
+
+.lectures {
+  color: #13c4a1;
+}
+
+.summary {
+  color: #13c4a1;
+}
+
+.BusinessQuizz {
+  height: 1000px;
 }
 
 footer {
@@ -548,6 +604,17 @@ footer {
   color: black;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+footer {
+  margin-top: auto;
+}
+
 .TypeWrite {
   position: relative;
   color: #13c4a1;
@@ -560,4 +627,39 @@ footer {
   top: 10%;
   animation: blink 0.8s ease-in-out infinite;
   -webkit-animation: blink 0.8s ease-in-out infinite;
+}
+
+.divv {
+  position: relative;
+  position: fixed;
+  right: 10px;
+  bottom: 15px;
+  background-color: #13c4a1;
+  width: 40px;
+  height: 43px;
+  border-radius: 50px;
+  transition: 0.5s;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+.divv .upicon {
+  position: fixed;
+  position: absolute;
+  right: 15px;
+  bottom: 15px;
+  color: #ffffff;
+  display: none;
+  z-index: 1;
+  font-size: 0.8rem;
+  transition: 0.5s;
+}
+
+.divv:hover {
+  background-color: #ff8a73;
+  transition: 0.5s;
+}
+.divv:hover .upicon {
+  color: #ffffff;
+  transition: 0.5s;
 }/*# sourceMappingURL=main.css.map */
