@@ -177,8 +177,8 @@
   top: 100%;
   -webkit-animation-name: bigBubble;
   animation-name: bigBubble;
-  -webkit-animation-duration: 6s;
-  animation-duration: 6s;
+  -webkit-animation-duration: 8s;
+  animation-duration: 8s;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
   -webkit-animation-delay: 6s;
@@ -252,48 +252,51 @@
 }
 .VBA {
   height: 160vh;
-  bottom:21%;
+  bottom: 21%;
 }
-.VLA{
+.VLA {
   bottom: 10%;
   height: 120vh;
 }
-.VLD{
+.VLD {
   bottom: -10%;
 }
-.VSA{
+.VSA {
   bottom: 0%;
 }
-.linBub{
-  height: 80vh;
-  bottom: -150%;
+.linBub {
+  height: 100vh;
+  bottom: -60%;
 }
-.busBub{
+.busBub {
   height: 80vh;
   bottom: -120%;
 }
-.dataBub{
-  height: 80vh;
-  bottom: -240%;
+.dataBub {
+  height: 100vh;
+  bottom: 10%;
 }
-.introBub{
+.introBub {
   height: 80vh;
   bottom: -250%;
 }
-.linearBub{
-  height: 80vh;
-  bottom: -180%;
+.linearBub {
+  height: 100vh;
+  bottom: -80%;
 }
-.loBub{
+.loBub {
   height: 80vh;
   bottom: -280%;
 }
-.staticBub{
+.staticBub {
   height: 80vh;
   bottom: -230%;
 }
-.BusinessQuiz{
-  height: 200vh;
+.BusinessQuiz {
+  height: 100vh;
   bottom: 20%;
 }
-
+.ISBub {
+  height: 100vh;
+  bottom: -50%;
+}
