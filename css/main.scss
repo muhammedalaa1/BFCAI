@@ -6,3 +6,9 @@
 @use "./sass/layout/footer" as *;
 @use "./sass/components/TypeWriting" as *;
 @use "./sass/pages/dsVideos" as *;
+@use "./sass/components/scrollupbtn" as *;
+@use "./sass/components/loader" as *;
+body{
+  font-family: 'Roboto', sans-serif;
+
+}

@@ -46,3 +46,27 @@ footer {
     }
   }
 }
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.author {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover {
+    color: black;
+  }
+  transition: 0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -moz-transition: 0.3s ease-in-out;
+  -ms-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+}

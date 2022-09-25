@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Static Analysis PDFs</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <script src="./js/bootstrap.bundle.min.js" defer></script>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main.scss">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/788a23a7c7.js" crossorigin="anonymous"></script>
+    <!-- js -->
+    <script src="./js/main.js" defer></script>
+  </head>
+  <body>
+    <!-- start navbar -->
+    <div class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <img src="https://ik.imagekit.io/thczfaus5/imgs/fsfsf2_8KGcr7fs9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664061373543" alt="" class="img-fluid logo" />
+        <a href="/index.html" class="navbar-brand">BFCAI</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item mx-1">
+              <a href="./DataStructure.html" class="nav-link">Data Structure</a>
+            </li>
+            <li class="nav-item mx-1">
+              <a href="./LogicDesign.html" class="nav-link">Logic Design</a>
+            </li>
+            <li class="nav-item mx-1">
+              <a href="./LinearAlgebra.html" class="nav-link">Linear Algebra</a>
+            </li>
+            <li class="nav-item mx-1">
+              <a href="./BusinessAdministration.html" class="nav-link">Business Administration</a>
+            </li>
+            <li class="nav-item mx-1">
+              <a href="./IntroToIs.html" class="nav-link">Intro To Info System</a>
+            </li>
+            <li class="nav-item mx-1">
+              <a href="./StaticAnalysis.html" class="nav-link">Static Analysis</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="bubble-animate staticBub">
+      <div class="circle small square1"></div>
+      <div class="circle small square2"></div>
+      <div class="circle small square3"></div>
+      <div class="circle small square4"></div>
+      <div class="circle small square5"></div>
+      <div class="circle medium square1"></div>
+      <div class="circle medium square2"></div>
+      <div class="circle medium square3"></div>
+      <div class="circle medium square4"></div>
+      <div class="circle medium square5"></div>
+      <div class="circle large square1"></div>
+      <div class="circle large square2"></div>
+      <div class="circle large square3"></div>
+      <div class="circle large square4"></div>
+    </div>
+    <div class="container bg-transparent mt-5">
+      <h1 class="TypeWrite text-center"></h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card">
+            <div class="d-flex justify-content-center">
+              <img
+                src="https://ik.imagekit.io/239/lecture_vs0LoQEZU.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1664063237002"
+                class="card-img-top"
+                alt="..."
+                style="height: 14rem; width: 18rem"
+              />
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">lectures</h5>
+              <a class="click" href="#lecetures"><button class="btn btn-primary">Click Here</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="d-flex justify-content-center">
+              <img
+                src="https://ik.imagekit.io/thczfaus5/imgs/sections_7KZ0BhGRw.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1664069814729"
+                class="card-img-top "
+                alt="..."
+                style="height: 14rem; width: 18rem"
+              />
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title">Sections</h5>
+              <a class="click" href="#Sections"> <button class="btn btn-primary">Click Here</button></a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card d-flex align-items-center">
+            <img
+              src="https://ik.imagekit.io/239/summeries_gTzUTk6gs.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1664063239537"
+              class="card-img-top w-75 "
+              alt="..."
+              style="height: 14rem"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title">Summaries</h5>
+              <a class="click" href="#summaries"> <button class="btn btn-primary">Click Here</button></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+<!-- start lectures section -->
+    <section id="lecetures">
+      <div class="container mt-5">
+        <h2 class="text-center mb-3 lectures">Lectures</h2>
+        <table class="table">
+            <tbody>
+              <tr class="">
+                <td class="fs-5 fw-bold col-10">Book</td>
+                <td><a class="click" href="https://drive.google.com/file/d/1DgDe148ULnXjmXhqRAFbQL6Jqo1j5Uo4/view?usp=sharing" target="_blank"><button class="btn btn-primary text-end">Download</button></a></td>
+              </tr>
+              <tr class="">
+                <td class="fs-5 fw-bold col-10">lecture 1</td>
+                <td><a class="click" href="https://drive.google.com/file/d/1BrEozTe_8WxkZeAPhqnJGNwE5CucvBDB/view?usp=sharing" target="_blank"><button class="btn btn-primary text-end">Download</button></a></td>
+              </tr>
+              <tr>
+                <td class="fs-5 fw-bold">lecture 2</td>
+                <td><a class="click" href="https://drive.google.com/file/d/151LuSmQ_qDsrW0myb9VhMyj4ao8AOqAZ/view?usp=sharing" target="_blank"><button class="btn btn-primary text-end">Download</button></a></td>
+              </tr>
+              <tr>
+                <td class="fs-5 fw-bold">lecture 3</td>
+                <td><a class="click" href="https://drive.google.com/file/d/1PKn9Xi7rJRueIqHoWkEVgqvXWBzwDOT7/view?usp=sharing" target="_blank"><button class="btn btn-primary text-end">Download</button></a></td>
+              </tr>
+              <tr>
+                <td class="fs-5 fw-bold">lecture 4 & 5</td>
+                <td><a class="click" href="https://drive.google.com/file/d/17ouhNzDsrFmOCfLHfklx0h0ZdrqNaDXe/view?usp=sharing" target="_blank"><button class="btn btn-primary text-end">Download</button></a></td>
+              </tr>
+              <tr>
+                <td class="fs-5 fw-bold">lecture 6 & 7</td>
+                <td><a class="click" href="https://docs.google.com/presentation/d/1mQ4cc9UHdxAQgNeSVgZPeDA8-a1YM4WlgkxBfvXYHdU/edit?usp=sharing" target="_blank"><button class="btn btn-primary text-end">Download</button></a></td>
+              </tr>
+              <tr>
+                <td class="fs-5 fw-bold">lecture 8 & 9</td>
+                <td><a class="click" href="https://docs.google.com/presentation/d/1T57DJ0EsoKTkWO4koH-tKtZn9xo9INPU/edit?usp=sharing&ouid=106322159235079928021&rtpof=true&sd=true" target="_blank"><button class="btn btn-primary text-end">Download</button></a></td>
+              </tr>
+              <tr>
+                <td class="fs-5 fw-bold">lecture 10 & 11</td>
+                <td><a class="click" href="https://docs.google.com/presentation/d/1QHV1SA8pC3xBnCUbBCa0vF18ayPkn2YS/edit?usp=sharing&ouid=106322159235079928021&rtpof=true&sd=true" target="_blank"><button class="btn btn-primary text-end">Download</button></a></td>
+              </tr>
+              <tr >
+                <td class="fs-5 fw-bold">lecture 12</td>
+                <td><a class="click" href="https://docs.google.com/presentation/d/1wYGzhUbTOWpVkMQcGQxxTP2gFpH3a8jRdgAdYK0gjec/edit?usp=sharing" target="_blank"><button class="btn btn-primary text-end">Download</button></a></td>
+              </tr>
+            </tbody>
+          </thead>
+        </table>
+      </div>
+      </div>
+    </section>
+    <!-- end lectures section -->
+
+     <!-- start Sections section -->
+     <section id="Sections">
+      <div class="container">
+        <h2 class="text-center mb-3 sectionss">sections</h2>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Section 1
+              </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <table class="table">
+                  <tbody>
+                    <tr>
+                      <td class="col-10"><h5>Sec 1</h5></td>
+                      <td><a class="click" href="https://drive.google.com/file/d/19-JupgVOVRUqyWdCdLQeCkzvc4bO7ROO/view?usp=sharing" target="_blank" ><button class="btn btn-primary text-end">Download</button></a></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                Section 2
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                <table class="table">
+                <tbody>
+                  <tr>
+                    <td class="col-10"><h5>Sec 2</h5></td>
+                    <td><a class="click" href="https://drive.google.com/file/d/1MdL8ZxVHAdNMjmNcPVGvwxwvHBj-4Bpg/view?usp=sharing" target="_blank" ><button class="btn btn-primary text-end">Download</button></a></td>
+                  </tr>
+                </tbody>
+              </table>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                Section 3
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">                
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <td class="col-10"><h5>sec</h5></td>
+                    <td><a class="click" href="https://drive.google.com/file/d/1QffpT034Yl4QEZRG-wgKTBrDHSO6pYgY/view?usp=sharing" target="_blank" ><button class="btn btn-primary text-end">Download</button></a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseThree">
+                Section 4
+              </button>
+            </h2>
+            <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">                
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <td class="col-10"><h5>Sec</h5></td>
+                    <td><a class="click" href="https://drive.google.com/file/d/1W3pWa00js7Oc9ySycxlIMQCb1kawX1i3/view?usp=sharing" target="_blank" ><button class="btn btn-primary text-end">Download</button></a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseThree">
+                Section 5
+              </button>
+            </h2>
+            <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">                
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <td class="col-10"><h5>Sec</h5></td>
+                    <td><a class="click" href="https://drive.google.com/file/d/10sQ3yRSt2O5VNV5fTkpiBqYkZFIPnZlm/view?usp=sharing" target="_blank" ><button class="btn btn-primary text-end">Download</button></a></td>
+                  </tr>
+                 
+                </tbody>
+              </table>
+            </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingSex">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSex" aria-expanded="false" aria-controls="flush-collapseThree">
+                Section 8
+              </button>
+            </h2>
+            <div id="flush-collapseSex" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">                
+              <table class="table">
+                <tbody>
+                  <tr>
+                    <td class="col-10"><h5>Sec</h5></td>
+                    <td><a class="click" href="https://drive.google.com/file/d/1-3q3tAE2xb4sC9J334yv7GfjIrqWswtG/view?usp=sharing" target="_blank" ><button class="btn btn-primary text-end">Download</button></a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end Sections section -->
+
+        <!-- start summaries section -->
+<section id="summaries">
+      
+  <div class="container mt-5">
+    <h2 class="text-center mb-3 lectures">Summaries</h2>
+    <table class="table">
+        <tbody>
+          <tr class="">
+            <td class="fs-5 fw-bold col-10">Lecture 1</td>
+            <td><a class="click" href="https://drive.google.com/file/d/103R69o9xWdQP6GU98Zd-0iyJLidz6JaF/view?usp=sharing" target="_blank"><button class="btn btn-primary text-end">Download</button></a></td>
+          </tr>
+          <tr>
+            <td class="fs-5 fw-bold">lecture 2</td>
+            <td><a class="click" href="https://drive.google.com/file/d/1NxABqLKvlUPsK44loJ7HEs6b2riisV_f/view?usp=sharing" target="_blank"><button class="btn btn-primary text-end">Download</button></a></td>
+          </tr>
+          <tr>
+            <td class="fs-5 fw-bold">lecture 3</td>
+            <td><a class="click" href="https://drive.google.com/file/d/1csBUqY2R9weplRaArF5DJUruSRlCQzRM/view?usp=sharing" target="_blank"><button class="btn btn-primary text-end">Download</button></a></td>
+          </tr>
+          <tr>
+            <td class="fs-5 fw-bold">lecture 4</td>
+            <td><a class="click" href="https://drive.google.com/file/d/1vigSi7PmgggLIi9ScaMy8svaziO8GKJM/view?usp=sharing" target="_blank"><button class="btn btn-primary text-end">Download</button></a></td>
+          </tr>
+          <tr>
+            <td class="fs-5 fw-bold">lecture 5</td>
+            <td><a class="click" href="https://drive.google.com/file/d/1oMeKYvGTBpyJQ1ZsKi_1NxmOzRB6IPul/view?usp=sharing" target="_blank"><button class="btn btn-primary text-end">Download</button></a></td>
+          </tr>
+          <tr>
+            <td class="fs-5 fw-bold">lecture 6</td>
+            <td><a class="click" href="https://drive.google.com/file/d/1uQQtWD6mII8e58Hjka4rKsJ3GMinpx66/view?usp=sharing" target="_blank"><button class="btn btn-primary text-end">Download</button></a></td>
+          </tr>
+          <tr>
+            <td class="fs-5 fw-bold">lecture 7</td>
+            <td><a class="click" href="https://drive.google.com/file/d/15VNNyeWhdonL195Wnxk66OcxTKAZ402F/view?usp=sharing" target="_blank"><button class="btn btn-primary text-end">Download</button></a></td>
+          </tr>
+          <tr>
+            <td class="fs-5 fw-bold">lecture 8&9</td>
+            <td><a class="click" href="https://drive.google.com/file/d/1H0bwzyh89OsBtKqtTxIIioEW6bGSBHHA/view?usp=sharing" target="_blank"><button class="btn btn-primary text-end">Download</button></a></td>
+          </tr>
+          <tr>
+            <td class="fs-5 fw-bold">lecture 10&11</td>
+            <td><a class="click" href="https://drive.google.com/file/d/1EVhFT4WgoUHnb6H3_XbTN3mRLjXQ7HnV/view?usp=sharing" target="_blank"><button class="btn btn-primary text-end">Download</button></a></td>
+          </tr>
+          <tr>
+            <td class="fs-5 fw-bold">lecture 12</td>
+            <td><a href="https://drive.google.com/file/d/1CIHqS7a0tIjnIohYY8TV7yRXG092yh2Z/view?usp=sharing" target="_blank"><button class="btn btn-primary text-end">Download</button></a></td>
+          </tr>
+        </tbody>
+      </thead>
+    </table>
+  </div>
+  </div>
+</section>
+  <!-- end summaries section -->
+
+    <!-- Footer -->
+    <footer class="text-center">
+      <!-- Grid container -->
+      <div class="container">
+        <!-- Section: Links -->
+        <section class="mt-5">
+          <!-- Grid row-->
+          <div class="row text-center d-flex justify-content-center pt-5">
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="./DataStructure.html" class="">Data Structure</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="./LogicDesign.html" class="">Logic Design</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="./LinearAlgebra.html" class="">Linear Algebra</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="./BusinessAdministration.html" class="long">Buisness Adminstration</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="./IntroToIs.html" class="">Intro to IS</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="./StaticAnalysis.html" class="">Statical Analysis</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row-->
+        </section>
+        <!-- Section: Links -->
+
+        <hr class="my-5" />
+
+        <!-- Section: Text -->
+        <section class="mb-5">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-8">
+              <p>BFCAI Unofficial Studying Website</p>
+            </div>
+          </div>
+        </section>
+        <!-- Section: Text -->
+
+        <!-- Section: Social -->
+        <section class="text-center mb-5">
+          <a href="https://www.facebook.com/Official.BFCAI/" class="me-4"> <i class="bi bi-facebook fs-4"></i> </a>
+        </section>
+        <!-- Section: Social -->
+      </div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div
+        class="text-center d-flex justify-content-center p-3"
+        style="background-color: #13c4a1"
+      >
+        © 2022 Copyright:
+        <div class="text-end mx-3">
+          <a class="author mx-2 ">Muhammed Alaa</a>
+<a
+            class="author mx-2"
+            href="https://www.linkedin.com/in/samaa-ayman-59b184239/"
+            >Samaa Ayman</a
+          >        </div>
+      </div>
+      <!-- Copyright -->
+    </footer>
+      <!-- go up -->
+      <button class="divv" id="goup"><i class="upicon fa-solid fa-arrow-up-long " id="goupp"></i></button>
+    <!-- Footer -->
+    <!-- End of .container -->
+    <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "d95820eaa61f42ebae57c724f07a6f81"}'></script><!-- End Cloudflare Web Analytics -->
+  </body>
+</html>
