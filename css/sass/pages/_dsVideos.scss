@@ -1,0 +1,17 @@
+@use "../helpers/variables" as *;
+.coloring{
+  color: $main-color-head;
+}
+.accordion-name{
+  color: black;
+}
+.button{
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  button{
+    text-transform: none;
+    padding: 10px 10px;
+  }
+}

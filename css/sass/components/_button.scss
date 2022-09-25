@@ -7,7 +7,7 @@
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-  color: #ffffff;
+  color: black;
   background: #13c4a1;
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
@@ -33,6 +33,9 @@
   background: #13c4a1;
   -webkit-transform: translateY(-5px);
   transform: translateY(-5px);
+  -moz-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  -o-transform: translateY(-5px);
 }
 
 .btn-primary.disabled,

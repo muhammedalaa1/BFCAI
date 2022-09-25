@@ -4,7 +4,7 @@
   left: 0;
   bottom: -40%;
   width: 100%;
-  height: 120vh;
+  height: 140vh;
   overflow: hidden;
   z-index: -1;
   .circle {
@@ -13,7 +13,7 @@
     position: absolute;
     border-radius: 50%;
   }
-  .circle.small{
+  .circle.small {
     width: 20px;
     height: 20px;
     opacity: 0;
@@ -23,8 +23,8 @@
     top: 100%;
     -webkit-animation-name: smallBubble;
     animation-name: smallBubble;
-    -webkit-animation-duration: 3s;
-    animation-duration: 3s;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
     -webkit-animation-delay: 1s;
@@ -119,7 +119,7 @@
     -webkit-animation-timing-function: ease-in;
     animation-timing-function: ease-in;
   }
-} 
+}
 
 .bubble-animate .circle.medium.square3 {
   left: 63%;
@@ -245,6 +245,24 @@
   animation-delay: 13s;
   -webkit-animation-timing-function: ease-in;
   animation-timing-function: ease-in;
+}
+.vidDs {
+  height: 160vh;
+  bottom: -30%;
+}
+.VBA {
+  height: 160vh;
+  bottom:21%;
+}
+.VLA{
+  bottom: 10%;
+  height: 120vh;
+}
+.VLD{
+  bottom: -10%;
+}
+.VSA{
+  bottom: 0%;
 }
 .linBub{
   height: 80vh;

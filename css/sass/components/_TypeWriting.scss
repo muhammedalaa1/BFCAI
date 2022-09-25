@@ -6,10 +6,10 @@
   &::after {
     content: "";
     position: absolute;
-    border-right: 3px solid $main-color-head;
-    height: 90%;
-    top: 10%;
+    border-right: 3px solid $btn-color;
+    height: 60%;
+    top: 25%;
     animation: blink 0.8s ease-in-out infinite;
     -webkit-animation: blink 0.8s ease-in-out infinite;
-}
+  }
 }
