@@ -2,9 +2,9 @@
 .bubble-animate {
   position: absolute;
   left: 0;
-  bottom: -40%;
+  bottom: 0;
   width: 100%;
-  height: 140vh;
+  height: 100vh;
   overflow: hidden;
   z-index: -1;
   .circle {
@@ -247,16 +247,13 @@
   animation-timing-function: ease-in;
 }
 .vidDs {
-  height: 160vh;
   bottom: -30%;
 }
 .VBA {
-  height: 160vh;
   bottom: 21%;
 }
 .VLA {
   bottom: 10%;
-  height: 120vh;
 }
 .VLD {
   bottom: -10%;
@@ -265,38 +262,42 @@
   bottom: 0%;
 }
 .linBub {
-  height: 100vh;
-  bottom: -60%;
+  bottom: -40%;
 }
 .busBub {
-  height: 80vh;
   bottom: -120%;
 }
 .dataBub {
-  height: 100vh;
   bottom: 10%;
 }
 .introBub {
-  height: 80vh;
-  bottom: -250%;
+  height: 100%;
+}
+.introBub1 {
+  height: 100%;
+  bottom: -200%;
 }
 .linearBub {
-  height: 100vh;
   bottom: -80%;
 }
 .loBub {
-  height: 80vh;
   bottom: -280%;
 }
 .staticBub {
-  height: 80vh;
   bottom: -230%;
 }
+.staticBub1 {
+  bottom: -30%;
+}
 .BusinessQuiz {
-  height: 100vh;
   bottom: 20%;
 }
 .ISBub {
-  height: 100vh;
   bottom: -50%;
+}
+.vidCs{
+  bottom: 30%;
+}
+.vidIs{
+  bottom: -30%;
 }
