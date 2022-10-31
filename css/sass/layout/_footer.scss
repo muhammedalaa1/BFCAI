@@ -70,3 +70,13 @@ footer {
   -ms-transition: 0.3s ease-in-out;
   -o-transition: 0.3s ease-in-out;
 }
+.Designed{
+  text-decoration: none;
+  color: white;
+  &:hover {
+    color: black;
+  }
+  transition: 0.3s ease-in-out;
+  
+
+}
